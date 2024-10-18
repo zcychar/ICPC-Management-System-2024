@@ -314,7 +314,7 @@ END
       [team_name1] [team_name2] [solved_number] [penalty_time]
       ```
 
-      `team_name1` 表示题目解冻导致排名上升的队伍， `team_name2` 表示排名被 `team_name1` 取代的队伍， `solved_number` 和 `penalty_time` 为 `team_name1` 新的解题数和罚时；
+      `team_name1` 表示题目解冻导致排名上升的队伍， `team_name2` 表示排名被 `team_name1` 取代的队伍（即题目解冻前处在`team_name1`排名上升后的名次的队伍）， `solved_number` 和 `penalty_time` 为 `team_name1` 新的解题数和罚时；
     - 榜单的输出格式如下：
       输出 $N$ （队伍总数）行，每行以
 
